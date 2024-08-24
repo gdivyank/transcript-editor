@@ -1,0 +1,46 @@
+.transcript {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    background-color: #232323;
+    height:100%;
+    color: white;
+  }
+  
+  .word {
+    cursor: pointer;
+    margin-right: 4px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .word.highlighted {
+    background-color: #232323;
+    border-color: chartreuse;
+    border:1px solid;
+    
+  }
+  
+  .play-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .correction-popup {
+    position: absolute;
+    background-color: #333;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .correction-popup input {
+    padding: 4px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+  
