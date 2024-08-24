@@ -58,3 +58,9 @@ The app uses an example transcript to demonstrate its functionality. The data is
 Transcript Data: You can replace the transcript array in App.js with your own data to load different transcripts.
 Styles: The styles are defined in TranscriptEditor.css. You can modify this file to change the appearance of the editor.
 Correction Logic: The correction logic is handled in the TranscriptEditor component. You can extend or modify the handleCorrect function to fit your needs.
+
+
+### Performance 
+
+<img width="582" alt="image" src="https://github.com/user-attachments/assets/a2f68356-5e10-425a-baf4-2d22d4858ca3">
+
